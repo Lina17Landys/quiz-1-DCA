@@ -7,13 +7,15 @@ const calificaciones = {
 };
 console.log(calificaciones);
 
-
-function passed(calificar) {
+function computeGrades(calificar) {
   if (true) {
     for (let i = 0; i < 60; i++) {
       const calificar = calificaciones[i < 69];
-      return passed;
+      return computeGrades;
     }
   }
-}
-console.log(passed);
+};
+
+const studentGrades = [100, 50, 65, 70, 85, 96, 45]
+const result = computeGrades(studentGrades)
+console.log(result)
