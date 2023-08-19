@@ -7,10 +7,10 @@ const calificaciones = {
 };
 console.log(calificaciones);
 
-function computeGrades(calificar) {
+function computeGrades(passed) {
   if (true) {
     for (let i = 0; i < 60; i++) {
-      const calificar = calificaciones[i < 69];
+      const passed = calificaciones[i < 69];
       return computeGrades;
     }
   }
